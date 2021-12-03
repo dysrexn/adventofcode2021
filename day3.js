@@ -2,8 +2,6 @@ var split = vals.replace(/(\r\n|\n|\r)/gm, ",").split(",");
 
 var O2 = JSON.parse(JSON.stringify(split));
 var CO2 = JSON.parse(JSON.stringify(split));
-var tempO2 = [];
-var tempCO2 = [];
 var bit0 = [];
 var bit1 = [];
 
